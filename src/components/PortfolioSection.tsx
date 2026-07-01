@@ -4,40 +4,40 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "Умный помощник по выборам",
-    category: "AI/ML и веб-разработка",
-    image: "/omgekeerdestemwijzer-banner.png",
-    description:
-      "AI-приложение для выборов. Пользователи задают вопросы о позициях партий и получают 100% фактические ответы из официальных программ с использованием RAG-технологии.",
-    url: "https://de-omgekeerde-stemwijzer.onrender.com/",
-    tags: ["Next.js", "AI/ML", "RAG", "TypeScript"],
-  },
-  {
-    title: "Автомойка Tahsin",
-    category: "Веб-дизайн и разработка",
+    title: "Автомойка «Блеск»",
+    category: "Сайт-визитка для автосервиса",
     image: "/autopoetsbedrijf-tahsin-project.png",
     description:
-      "Профессиональный сайт для автомойки с 20-летним опытом. Полная презентация услуг, автомойки и гаража с современным адаптивным дизайном.",
-    url: "https://www.autopoetsbedrijftahsin.nl/",
-    tags: ["React", "Next.js", "Tailwind CSS"],
+      "Современный сайт для автомойки с онлайн-записью, ценами и услугами. Клиенты выбирают удобное время прямо на сайте — поток заявок вырос в разы.",
+    url: "#",
+    tags: ["Онлайн-запись", "Адаптивный дизайн", "Быстрая загрузка"],
   },
   {
-    title: "Кадровое агентство CAN",
-    category: "Веб-разработка",
-    image: "/can-uitzendbureau-project.png",
+    title: "Ремонт квартир «Профи»",
+    category: "Лендинг под услугу",
+    image: "/professional-corporate-website.png",
     description:
-      "Кадровое агентство с 30-летним опытом в садоводческом секторе. Сайт с обзором услуг и прямыми контактами для работодателей и соискателей.",
-    url: "https://canbv.nl/",
-    tags: ["Next.js", "React", "Tailwind CSS"],
+      "Продающая страница для бригады по ремонту. Портфолио работ, калькулятор стоимости и форма заявки. Клиенты приходят из поиска по своему городу.",
+    url: "#",
+    tags: ["Лендинг", "Форма заявки", "SEO"],
   },
   {
-    title: "Портфолио Murat Sahin",
-    category: "Портфолио-сайт",
-    image: "/murat-sahin-portfolio.png",
+    title: "Салон красоты «Мята»",
+    category: "Сайт для салона",
+    image: "/restaurant-website-design.png",
     description:
-      "Профессиональное портфолио full-stack разработчика. Демонстрация проектов, навыков и опыта с современным минималистичным дизайном и темной темой.",
-    url: "https://murat-sahin-dev.vercel.app/",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", ".NET Core"],
+      "Стильный сайт салона с прайсом, галереей работ мастеров и записью онлайн. Кнопки WhatsApp и Telegram для быстрой связи с клиентами.",
+    url: "#",
+    tags: ["Онлайн-запись", "Галерея", "WhatsApp"],
+  },
+  {
+    title: "Кофейня «Тепло»",
+    category: "Сайт-визитка для кафе",
+    image: "/modern-ecommerce-website.png",
+    description:
+      "Уютный сайт для локальной кофейни с меню, картой проезда и акциями. Помогает гостям легко найти заведение и узнать о новинках.",
+    url: "#",
+    tags: ["Меню", "Карта", "Мобильная версия"],
   },
 ]
 
@@ -46,9 +46,9 @@ export function PortfolioSection() {
     <section id="portfolio" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">Наше портфолио</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">Мои работы</h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Ознакомьтесь с подборкой наших последних проектов и узнайте, как мы помогаем бизнесу расти с помощью мощных цифровых решений.
+            Примеры сайтов, которые я сделал для местного бизнеса. Каждый из них помогает своему владельцу находить новых клиентов.
           </p>
         </div>
 

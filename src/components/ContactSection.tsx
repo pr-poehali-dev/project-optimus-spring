@@ -38,10 +38,10 @@ export function ContactSection() {
             Контакты
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            Давайте <span className="text-primary">создавать вместе</span>
+            Обсудим ваш <span className="text-primary">сайт?</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Готовы воплотить ваши цифровые амбиции? Свяжитесь с нами без обязательств и узнайте, чем мы можем помочь.
+            Расскажите о своём бизнесе — подскажу, какой сайт подойдёт и сколько это будет стоить. Консультация бесплатная и ни к чему не обязывает.
           </p>
         </div>
 
@@ -158,11 +158,11 @@ export function ContactSection() {
                     <MapPin className="h-5 w-5" />
                   </div>
                   <div>
-                    <h3 className="font-semibold mb-1">Время работы</h3>
+                    <h3 className="font-semibold mb-1">На связи</h3>
                     <p className="text-sm text-muted-foreground">
-                      Пн - Пт: 9:00 - 18:00
+                      Ежедневно: 9:00 - 21:00
                       <br />
-                      Выходные: по договоренности
+                      Отвечаю быстро в мессенджерах
                     </p>
                   </div>
                 </div>
