@@ -47,7 +47,8 @@ export function AboutSection() {
           {values.map((value, index) => (
             <Card
               key={index}
-              className="border-none shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
+              className="border-none shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group animate-fade-in-up"
+              style={{ animationDelay: `${index * 0.08}s` }}
             >
               <CardContent className="p-6">
                 <div className="flex items-start gap-3">
@@ -66,7 +67,11 @@ export function AboutSection() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
-            <div key={index} className="text-center group cursor-default">
+            <div
+              key={index}
+              className="text-center group cursor-default animate-fade-in-up"
+              style={{ animationDelay: `${0.3 + index * 0.1}s` }}
+            >
               <div className="text-4xl md:text-5xl font-bold text-primary mb-2 group-hover:scale-110 transition-transform">
                 {stat.number}
               </div>

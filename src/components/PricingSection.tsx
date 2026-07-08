@@ -71,11 +71,12 @@ export function PricingSection() {
           {pricingTiers.map((tier, index) => (
             <Card
               key={index}
-              className={`relative group ${
+              className={`relative group animate-fade-in-up ${
                 tier.highlighted
-                  ? "border-primary shadow-xl scale-105 bg-gradient-to-b from-background to-primary/5"
-                  : "hover:border-primary/50 hover:shadow-lg"
+                  ? "border-primary shadow-xl scale-105 bg-gradient-to-b from-background to-primary/5 hover:scale-[1.07]"
+                  : "hover:border-primary/50 hover:shadow-lg hover:-translate-y-1"
               } transition-all duration-300`}
+              style={{ animationDelay: `${index * 0.1}s` }}
             >
               {tier.highlighted && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-gradient-to-r from-primary to-primary/80 text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold shadow-lg">
